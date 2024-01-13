@@ -1,3 +1,4 @@
+//program rozwiazujacy rownanie kwadratowe w dziedzinie liczb rzeczywistych o nastepującym dzialaniu
 ﻿#include <iostream>
 
 
@@ -9,13 +10,13 @@ int main()
 {
 	float a, b, c, d, x, x1, x2;
 
-	cout << "\n Podaj współczynnik a" << endl;
+	cout << "\n Podaj wspolczynnik a" << endl;
 	cin >> a;
 
-	cout << "Podaj współczynnik b" << endl;
+	cout << "Podaj wspolczynnik b" << endl;
 	cin >> b;
 
-	cout << "Podaj współczynnik c" << endl;
+	cout << "Podaj wspolczynnik c" << endl;
 	cin >> c;
 
 	d = b * b - 4 * a * c;
@@ -35,7 +36,7 @@ int main()
 	else
 
 	{
-		cout << "Brak rozwiązań";
+		cout << "Brak rozwiazan";
 	}
 
 }
